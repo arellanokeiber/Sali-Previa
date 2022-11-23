@@ -6,31 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salió Previa</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/aos.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../assets/Imagenes/favico/salio-previa-ico.png" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/4af4038686.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="body">
-    <header class="header">
-        <nav class="header__nav--superior">
-            <div class="header__nav--superior__div">
-                <ul class="header__nav--superior__div__ul">
-                    <li class="header__nav--superior__div__ul__li"></li><a href="index.html"
-                        class="header__nav--superior__div__ul__li__a">Inicio</a></li>
-                    <li class="header__nav--superior__div__ul__li"><a href="form.html"
-                            class="header__nav--superior__div__ul__li__a">Regístrate</a></li>
-                    <li class="header__nav--superior__div__ul__li"><a href="contact.html"
-                            class="header__nav--superior__div__ul__li__a">Contáctanos</a></li>
-                    <li class="header__nav--superior__div__ul__li"><a href="location.html"
-                            class="header__nav--superior__div__ul__li__a">Sucursales</a></li>
-                    <li class="header__nav--superior__div__ul__li"><a href="about.html"
-                            class="header__nav--superior__div__ul__li__a">Sobre Nosotros</a></li>
-                </ul>
+    <header class="header sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light colorNav header">
+            <div class="container-fluid colorNav justify-content-end w-100">
+                <button class="navbar-toggler colorButton " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="index.html"><img src="../assets/Imagenes/logo/logo-salio-previa.jpeg"
+                            alt="logo" width="250"></a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 colorNav justify-content-end w-100">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="form.html">Regístrate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contact.html">Contáctanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="location.html">Sucursales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="about.html">Sobre Nosotros</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <div class="header__div--titulo">
-            <img class="header__div--titulo__imagen--logo" src="../assets/Imagenes/logo/logo-salio-previa.jpeg" alt="">
             <h1 class="header__div--titulo__h1">Salió Previa</h1>
             <h2 class="header__div--titulo__h2">Drink Shop</h2>
         </div>
@@ -55,55 +69,85 @@
             </div>
         </nav>
     </header>
-    <main class="main--form">
-        <section class="main--form__section">
-            <h2 class="main--form__section__h2">Regístrate para obtener mayores descuentos</h2>
+
+    <main>
+        <section>
+            <h2  data-aos="zoom-out-up" data-aos-offset="200" class="main--form__section__h2 mt-5">Regístrate para obtener mayores descuentos</h2>
             <p class="main--form__section__p">Formulario de regístro</p>
-            <form class="main--form__section__form" action="" target="">
-                <div class="main--form__section__form__div--nombre--apellido">
-                    <label for="firstname">Nombre: </label> <input type="text" name="firstname"
-                        placeholder="Ingrese su nombre aqui..." required>
-                    <label for="lastname">Apellido: </label> <input type="text" name="lastname"
-                        placeholder="Ingrese su apellido aqui..." required>
+            <div class="container">
+                <div class="row">
+                    <form class="row g-3">
+                        <div class="col-sm-12 col-md-6 col-lg-6 text-center ">
+                            <label for="validationCustom01" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="validationCustom01" required>
+                        </div>
+                        <div class="col-sm-12 col-md-6 text-center">
+                            <label for="validationCustom01" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="validationCustom01" required>
+                        </div>
+                        <div class="col-sm-12 col-md-6 text-center">
+                            <label for="validationCustom02" class="form-label">Correo Electronico</label>
+                            <input type="text" class="form-control" id="validationCustom02" required>
+                        </div>
+                        <div class="col-sm-12 col-md-6 text-center">
+                            <label for="validationCustom03" class="form-label">Provincia</label>
+                            <input type="text" class="form-control" id="validationCustom03" value="Capital Federal" required>
+                        </div>
+                        <div class="col-sm-12 col-md-6 text-center">
+                            <label for="validationCustom04" class="form-label">Localidad</label>
+                            <select class="form-select" id="validationCustom04" required>
+                              <option selected disabled value="">Localidad</option>
+                              <option>Recoleta</option>
+                              <option>Palermo</option>
+                              <option>San Telmo</option>
+                              <option>Microcentro</option>
+                              <option>Caballito</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-12 col-md-6 text-center">
+                            <label for="validationCustom05" class="form-label">Dirección</label>
+                            <input type="text" class="form-control" id="validationCustom05"  required>
+                        </div>
+                        <div class="col-sm-12 col-md-6 text-center">
+                            <label for="validationCustom05" class="form-label">Piso/depto</label>
+                            <input type="text" class="form-control" id="validationCustom05" required>
+                        </div>
+                        <div class="col-sm-12 col-md-6 text-center">
+                            <label for="validationCustom05" class="form-label">Código postal</label>
+                            <input type="text" class="form-control" id="validationCustom05" required>
+                            </div>
+                            <div class="col-sm-12 col-md-12 text-center mt-4">
+                                <div class="form-check">
+                                    <p> Género :
+                                        <input type="radio" name="gender" value="hombre" cheked>Hombre
+                                        <input type="radio" name="gender" value="mujer" >Mujer
+                                        <input type="radio" name="gender" value="otro">Otro
+                                    </p>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center mb-5">
+                                <button class="btn btn-outline-success" type="submit">Enviar</button>
+                            </div>
+                      </form>
                 </div>
-                <div class="main--form__section__form__div--direccion--ciudad">
-                    <label for="street">Dirección: </label> <input type="text" name="address"
-                        placeholder="Ingrese su dirección aqui..." required>
-                    <label for="city">Ciudad: </label> <input type="text" name="city" value="C.A.B.A" required>
-                </div>
-                <div class="main--form__section__form__div--cp--correo">
-                    <label for="zipcode">CP: </label> <input type="text" name="zipcode"
-                        placeholder="Ingrese su codigo aqui..." required>
-                    <label for="email">Correo Electr.: </label> <input type="email"
-                        placeholder="Ingrese aqui su correo..." required>
-                </div>
-                <div class="main--form__section__form__div--nacimiento">
-                    <label for="date">Fecha de nacimiento: </label> <input type="date" name="date" required>
-                </div>
-                <div class="main--form__section__form__div--genero">
-                    <p> Género :
-                        <input type="radio" name="gender" value="hombre" cheked>Hombre
-                        <input type="radio" name="gender" value="mujer">Mujer
-                        <input type="radio" name="gender" value="otro">Otro
-                    </p>
-                </div>
-                <div class="main--form__section__form__div--enviar">
-                    <input type="submit" value="Enviar">
-                </div>
-            </form>
+            </div>
         </section>
     </main>
     <footer class="footer">
         <h2>Delivery Gratis en CABA.</h2>
         <p class="footer__p">Derechos reservados ®2022</p>
-        <a href="https://twitter.com/KeiberArellano2" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-        <a href="https://www.facebook.com/Keiber.Jose.Arellano/" target="_blank"><i
-                class="fa-brands fa-facebook"></i></a>
-        <a href="https://www.instagram.com/direct/inbox/?hl=es" target="_blank"><i
-                class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/jose-arellano-a61521178/" target="_blank"><i
-                class="fa-brands fa-linkedin"></i>
+        <a href="https://twitter.com/KeiberArellano2" target="_blank"><i class="fa-brands fa-twitter twitter"></i></a>
+        <a href="https://www.facebook.com/Keiber.Jose.Arellano/" target="_blank"><i class="fa-brands fa-facebook facebook"></i></a>
+        <a href="https://www.instagram.com/direct/inbox/?hl=es" target="_blank"><i class="fa-brands fa-instagram instagram"></i></a>
+        <a href="https://www.linkedin.com/in/jose-arellano-a61521178/" target="_blank"><i class="fa-brands fa-linkedin linkedin"></i>
     </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/4af4038686.js" crossorigin="anonymous"></script>
+    <script src="../js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
