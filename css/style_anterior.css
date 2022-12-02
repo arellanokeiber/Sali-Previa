@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: white;
+    color: black;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.6;
+    letter-spacing: 02px;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.6;
+    letter-spacing: 02px;
+}
+
+.colorNav {
+    background-color: black;
+}
+
+.colorButton {
+    background-color: white;
+}
+
+.header__nav--inferior {
+    text-align: center;
+}
+
+.header__nav--inferior__div__ul{
+    list-style-type: none;
+}
+
+.header__nav--inferior__div__ul__li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.header__nav--inferior__div__ul__li__a{
+    text-decoration: none;
+    color: white;
+}
+
+.header__nav--inferior__div__ul__li__a:hover{
+    color: goldenrod;
+}
+
+.header__div--titulo__h1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header__div--titulo__h2 {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.header__div--titulo__imagen--logo {
+    width: 250px;
+}
+
+.galeria {
+    width: 100%;
+}
+
+.carousel-item {
+    height: 70vh;
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit: cover ;
+}
+
+.main__section__div--aperitivo {
+    width: 300px;
+    height: 250px;
+    text-align: center;
+}
+
+.main__section__div--aperitivo__img--aperitivo {
+    width: 100px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.main__section__div--vodka {
+    width: 300px;
+    height: 250px;
+    text-align: center;
+}
+
+.main__section__div--aperitivo__img--vodka {
+    width: 100px;
+    height: 180px;
+
+    object-fit: cover;
+}
+
+.main--form__section__h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.main--form__section__p {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.main--form__section__form__div--nombre--apellido {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.main--form__section__form__div--direccion--ciudad {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.main--form__section__form__div--cp--correo {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.main--form__section__form__div--nacimiento {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.main--form__section__form__div--genero {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.main--form__section__form__input {
+    text-align: center;
+}
+
+.main--form__section__form__div--enviar {
+    text-align: center;
+    padding: 30px;
+}
+
+.menu--contact__section__h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.menu--contact__section__p {
+    text-align: center;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.menu--contact__section__div--twitter {
+    text-align: center;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.menu--contact__section__div--facebook {
+    text-align: center;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.menu--contact__section__div--instagram{
+    text-align: center;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.main--location__section__h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.main--location__section__div--maps {
+    text-align: center;
+    margin: 30px;
+}
+
+.main--about__section__h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.main--about__section__p--superior {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.main--about__section__p--inferior {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.main--about__section__div--video {
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 404px;
+}
+
+.footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+}
+
+.footerAbsolute{
+    color: white;
+    background-color: black;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.footer__p {
+    color: white;
+    margin-bottom: 10px;
+}
+
+a.boton:hover:after,
+a.boton:hover:before{
+	transform: rotate(45deg), scaleX(130%);
+	background: rgba(255,255,255,0.1);
+	transition: all ease 0.5s;
+}
+
+.twitter {
+    color: #1da1f2;
+    font-size: 3rem;
+}
+
+.facebook {
+    color: #3b5998;
+    font-size: 3rem;
+}
+
+.instagram {
+    color: #cb2027;
+    font-size: 3rem;
+}
+
+.linkedin {
+    color: #007bb6;
+    font-size: 3rem;
+}
