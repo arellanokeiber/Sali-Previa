@@ -52,7 +52,8 @@
                 }
             }
             .main__contact__section__menu__div{
-                @include mixinP-center-mt-ml-mr{
+                @include mixinP-center-mt-ml-mr;
+                .main__contact__section__menu__div__a__i--linkedin {
                     color: map-get($redes-sociales, linkedin);
                     font-size: 3rem;
                 }
