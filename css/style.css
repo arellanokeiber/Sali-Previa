@@ -58,7 +58,6 @@
   margin-left: 80px;
   margin-right: 80px; }
   .main__contact .main__contact__section .main__contact__section__menu .main__contact__section__menu__div .main__contact__section__menu__div__a__i--instagram {
-    color: #cb2027;
     font-size: 3rem; }
 
 .main__location .main__location__section .main__location__section__h2 {
@@ -66,8 +65,7 @@
   margin-top: 40px; }
 
 .main__location .main__location__section .main__location__section__div__maps {
-  text-align: center;
-  margin: 30px; }
+  text-align: center; }
 
 .main__about .main__about__section .main__about__section__h2 {
   text-align: center;
