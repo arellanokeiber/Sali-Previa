@@ -47,7 +47,13 @@
             .main__contact__section__menu__div{
                 @include mixinP-center-mt-ml-mr;
                 .main__contact__section__menu__div__a__i--instagram {
-                    color: map-get($redes-sociales, ins);
+                    color: map-get($redes-sociales, instagram);
+                    font-size: 3rem;
+                }
+            }
+            .main__contact__section__menu__div{
+                @include mixinP-center-mt-ml-mr{
+                    color: map-get($redes-sociales, linkedin);
                     font-size: 3rem;
                 }
             }
