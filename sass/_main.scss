@@ -1,0 +1,87 @@
+.main__galeria{
+    .main__galeria__section{
+        .main__galeria__section__div__aperitivo__img {
+            @include mixinGaleria-w-h-obf;
+        }
+        .main__galeria__section__div__vodka__img {
+            @include mixinGaleria-w-h-obf;
+        }
+    }
+}
+
+.main__form{
+    .main__form__section{
+        .main__form__section__h2 {
+            @include mixinH2-center-mt;  
+        }
+        .main__form__section__p {
+            @include mixinP-center-mt-ml-mr;
+        }
+    }
+}
+
+.main__contact{
+    .main__contact__section{
+        .main__contact__section__menu{
+            .main__contact__section__menu__h2 {
+                @include mixinH2-center-mt;
+            }
+            .main__contact__section__menu__p {
+                @include mixinP-center-mt-ml-mr;
+            }
+            .main__contact__section__menu__div {
+                @include mixinP-center-mt-ml-mr;
+                .main__contact__section__menu__div__a__i--twitter {
+                    color: map-get($redes-sociales, twitter);
+                    font-size: 3rem;
+                }
+
+            }
+            .main__contact__section__menu__div {
+                @include mixinP-center-mt-ml-mr;
+                .main__contact__section__menu__div__a__i--facebook {
+                    color: map-get($redes-sociales, facebook);
+                    font-size: 3rem;
+                }
+            }
+            .main__contact__section__menu__div{
+                @include mixinP-center-mt-ml-mr;
+                .main__contact__section__menu__div__a__i--instagram {
+                    color: map-get($redes-sociales, instagram);
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+}
+
+.main__location{
+    .main__location__section{
+        .main__location__section__h2{
+            @include mixinH2-center-mt;
+        }
+        .main__location__section__div__maps {
+            text-align: center;
+            margin: 30px;
+        }
+    }
+}
+
+.main__about{
+    .main__about__section{
+        .main__about__section__h2 {
+            @include mixinH2-center-mt;
+        }
+        .main__about__section__p--superior {
+            @include mixinP-center-mt-ml-mr;
+        }
+        .main__about__section__p--inferior {
+            @include mixinP-center-mt-ml-mr;
+        }
+        .main__about__section__div--video {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+    }
+}

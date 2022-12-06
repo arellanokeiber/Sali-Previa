@@ -1,0 +1,17 @@
+@mixin mixinGaleria-w-h-obf{
+    width: 100px;
+    height: 180px;
+    object-fit: cover;
+}
+
+@mixin mixinH2-center-mt{
+    text-align: center;
+    margin-top: 40px; 
+}
+
+@mixin mixinP-center-mt-ml-mr{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}

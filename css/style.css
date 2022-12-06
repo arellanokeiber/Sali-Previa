@@ -1,293 +1,156 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.main__galeria .main__galeria__section .main__galeria__section__div__aperitivo__img {
+  width: 100px;
+  height: 180px;
+  object-fit: cover; }
+
+.main__galeria .main__galeria__section .main__galeria__section__div__vodka__img {
+  width: 100px;
+  height: 180px;
+  object-fit: cover; }
+
+.main__form .main__form__section .main__form__section__h2 {
+  text-align: center;
+  margin-top: 40px; }
+
+.main__form .main__form__section .main__form__section__p {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px; }
+
+.main__contact .main__contact__section .main__contact__section__menu .main__contact__section__menu__h2 {
+  text-align: center;
+  margin-top: 40px; }
+
+.main__contact .main__contact__section .main__contact__section__menu .main__contact__section__menu__p {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px; }
+
+.main__contact .main__contact__section .main__contact__section__menu .main__contact__section__menu__div {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px; }
+  .main__contact .main__contact__section .main__contact__section__menu .main__contact__section__menu__div .main__contact__section__menu__div__a__i--twitter {
+    color: #1da1f2;
+    font-size: 3rem; }
+
+.main__contact .main__contact__section .main__contact__section__menu .main__contact__section__menu__div {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px; }
+  .main__contact .main__contact__section .main__contact__section__menu .main__contact__section__menu__div .main__contact__section__menu__div__a__i--facebook {
+    color: #3b5998;
+    font-size: 3rem; }
+
+.main__contact .main__contact__section .main__contact__section__menu .main__contact__section__menu__div {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px; }
+  .main__contact .main__contact__section .main__contact__section__menu .main__contact__section__menu__div .main__contact__section__menu__div__a__i--instagram {
+    color: #cb2027;
+    font-size: 3rem; }
+
+.main__location .main__location__section .main__location__section__h2 {
+  text-align: center;
+  margin-top: 40px; }
+
+.main__location .main__location__section .main__location__section__div__maps {
+  text-align: center;
+  margin: 30px; }
+
+.main__about .main__about__section .main__about__section__h2 {
+  text-align: center;
+  margin-top: 40px; }
+
+.main__about .main__about__section .main__about__section__p--superior {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px; }
+
+.main__about .main__about__section .main__about__section__p--inferior {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px; }
+
+.main__about .main__about__section .main__about__section__div--video {
+  width: 300px;
+  height: 300px;
+  object-fit: cover; }
 
 .body {
-    background-color: white;
-    color: black;
-    height: 100vh;
-    font-family: 'Ubuntu', sans-serif;
-    line-height: 1.6;
-    letter-spacing: 02px;
-}
+  background-color: white;
+  color: black;
+  height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 02px; }
 
 .header {
-    background-color: black;
-    color: white;
-    position: sticky;
-    top: 0;
-    font-family: 'Ubuntu', sans-serif;
-    line-height: 1.6;
-    letter-spacing: 02px;
-}
-
-.colorNav {
-    background-color: black;
-}
-
-.colorButton {
-    background-color: white;
-}
-
-/* .header__nav--superior__div__ul{
-    list-style-type: none;
-}
-
-.header__nav--superior__div__ul__li {
-    display: inline-block;
-    padding: 10px;
-    margin-right: 10px;
-}
-
-.header__nav--superior__div__ul__li__a{
-    text-decoration: none;
-    color: white;
-}
-
-.header__nav--superior__div__ul__li__a:hover{
-    color: goldenrod;
-}
-
-.header__nav--superior {
-    text-align: end;
-} */
-
-.header__nav--inferior {
-    text-align: center;
-}
-
-.header__nav--inferior__div__ul{
-    list-style-type: none;
-}
-
-.header__nav--inferior__div__ul__li{
-    display: inline-block;
-    padding: 10px;
-}
-
-.header__nav--inferior__div__ul__li__a{
-    text-decoration: none;
-    color: white;
-}
-
-.header__nav--inferior__div__ul__li__a:hover{
-    color: goldenrod;
-}
-
-.header__div--titulo__h1 {
+  background-color: black;
+  color: white;
+  position: sticky;
+  top: 0;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 02px; }
+  .header .header__nav__superior .header__nav__superior__div .header__nav__superior__div__color--button {
+    background-color: goldenrod; }
+  .header .header__div__logo .header__div__logo__a .header__div__logo__a__img {
+    width: 250px; }
+  .header .header__div__titulo .header__div__titulo--h1 {
     color: white;
     background-color: black;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.header__div--titulo__h2 {
+    font-family: "Ubuntu", sans-serif; }
+  .header .header__div__titulo .header__div__titulo--h2 {
     color: white;
     background-color: black;
-    text-align: center;
-}
+    text-align: center; }
+  .header .header__nav__inferior {
+    text-align: center; }
+    .header .header__nav__inferior .header__nav__inferior__div__ul {
+      list-style-type: none; }
+      .header .header__nav__inferior .header__nav__inferior__div__ul .header__nav__inferior__div__ul__li {
+        display: inline-block;
+        padding: 10px; }
+        .header .header__nav__inferior .header__nav__inferior__div__ul .header__nav__inferior__div__ul__li .header__nav__inferior__div__ul__li__a {
+          text-decoration: none;
+          color: white; }
+          .header .header__nav__inferior .header__nav__inferior__div__ul .header__nav__inferior__div__ul__li .header__nav__inferior__div__ul__li__a:hover {
+            color: goldenrod; }
 
-.header__div--titulo__imagen--logo {
-    width: 250px;
-}
-
-.galeria {
-    width: 100%;
-}
-
-.carousel-item {
-    height: 70vh;
-}
-
-.carousel-item img{
-    height: 100%;
-    object-fit: cover ;
-}
-
-.main__section__div--aperitivo {
-    width: 300px;
-    height: 250px;
-    text-align: center;
-}
-
-.main__section__div--aperitivo__img--aperitivo {
-    width: 100px;
-    height: 180px;
-    object-fit: cover;
-}
-
-.main__section__div--vodka {
-    width: 300px;
-    height: 250px;
-    text-align: center;
-}
-
-.main__section__div--aperitivo__img--vodka {
-    width: 100px;
-    height: 180px;
-
-    object-fit: cover;
-}
-
-.main--form__section__h2 {
-    text-align: center;
-    margin-top: 40px;
-}
-
-.main--form__section__p {
-    text-align: center;
-    margin-top: 20px;
-    font-weight: bold;
-}
-
-.main--form__section__form__div--nombre--apellido {
-    text-align: center;
-    padding-top: 40px;
-}
-
-.main--form__section__form__div--direccion--ciudad {
-    text-align: center;
-    padding-top: 30px;
-}
-
-.main--form__section__form__div--cp--correo {
-    text-align: center;
-    padding-top: 30px;
-}
-
-.main--form__section__form__div--nacimiento {
-    text-align: center;
-    padding-top: 30px;
-}
-
-.main--form__section__form__div--genero {
-    text-align: center;
-    padding-top: 30px;
-}
-
-.main--form__section__form__input {
-    text-align: center;
-}
-
-.main--form__section__form__div--enviar {
-    text-align: center;
-    padding: 30px;
-}
-
-.menu--contact__section__h2 {
-    text-align: center;
-    margin-top: 40px;
-}
-
-.menu--contact__section__p {
-    text-align: center;
-    margin-top: 60px;
-    font-weight: bold;
-}
-
-.menu--contact__section__div--twitter {
-    text-align: center;
-    margin-top: 60px;
-    font-weight: bold;
-}
-
-.menu--contact__section__div--facebook {
-    text-align: center;
-    margin-top: 60px;
-    font-weight: bold;
-}
-
-.menu--contact__section__div--instagram{
-    text-align: center;
-    margin-top: 60px;
-    font-weight: bold;
-}
-
-.main--location__section__h2 {
-    text-align: center;
-    margin-top: 40px;
-}
-
-.main--location__section__div--maps {
-    text-align: center;
-    margin: 30px;
-}
-
-.main--about__section__h2 {
-    text-align: center;
-    margin-top: 40px;
-}
-
-.main--about__section__p--superior {
-    text-align: center;
-    margin-top: 20px;
-    margin-left: 80px;
-    margin-right: 80px;
-}
-
-.main--about__section__p--inferior {
-    text-align: center;
-    margin-top: 20px;
-    margin-left: 80px;
-    margin-right: 80px;
-}
-
-.main--about__section__div--video {
-    width: 300px;
-    height: 300px;
-    margin-top: 10px;
-    margin-left: 404px;
-}
-
-.footer{
+.footer {
+  color: white;
+  background-color: black;
+  text-align: center;
+  bottom: 0;
+  position: relative;
+  width: 100%; }
+  .footer .footer__p {
     color: white;
-    background-color: black;
-    text-align: center;
-    bottom: 0;
-    position: relative;
-    width: 100%;
-}
-
-.footerAbsolute{
-    color: white;
-    background-color: black;
-    text-align: center;
-    bottom: 0;
-    position: absolute;
-    width: 100%;
-}
-
-.footer__p {
-    color: white;
-    margin-bottom: 10px;
-}
-
-a.boton:hover:after,
-a.boton:hover:before{
-	transform: rotate(45deg), scaleX(130%);
-	background: rgba(255,255,255,0.1);
-	transition: all ease 0.5s;
-}
-
-.twitter {
+    margin-bottom: 10px; }
+  .footer .footer__a--twitter {
     color: #1da1f2;
-    font-size: 3rem;
-}
-
-.facebook {
+    font-size: 3rem; }
+  .footer .footer__a--facebook {
     color: #3b5998;
-    font-size: 3rem;
-}
-
-.instagram {
+    font-size: 3rem; }
+  .footer .footer__a--instagram {
     color: #cb2027;
-    font-size: 3rem;
-}
-
-.linkedin {
+    font-size: 3rem; }
+  .footer .footer__a--linkedin {
     color: #007bb6;
-    font-size: 3rem;
-}
+    font-size: 3rem; }
