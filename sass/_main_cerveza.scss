@@ -1,0 +1,7 @@
+.main__cerveza{
+    .main__cerveza__section{
+        .main__cerveza__section__div__img {
+            @include mixinGaleria-w-h-obf;
+        }
+    }
+}

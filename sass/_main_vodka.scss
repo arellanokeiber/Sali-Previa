@@ -1,0 +1,7 @@
+.main__vodka{
+    .main__vodka__section{
+        .main__vodka__section__div__img {
+            @include mixinGaleria-w-h-obf;
+        }
+    }
+}

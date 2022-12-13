@@ -1,0 +1,11 @@
+.main__location{
+    .main__location__section{
+        .main__location__section__h2{
+            @include mixinH2-center-mt;
+        }
+        .main__location__section__div__maps {
+            text-align: center;
+            padding: 30px;
+        }
+    }
+}

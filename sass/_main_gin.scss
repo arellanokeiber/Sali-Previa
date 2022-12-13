@@ -1,0 +1,9 @@
+.main__gin{
+    .main__gin__section{
+        .main__gin__section__div{
+            .main__gin__section__div__img {
+                @include mixinGaleria-w-h-obf;
+            }
+        }
+    }
+}

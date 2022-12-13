@@ -4,25 +4,46 @@
   padding: 0;
   box-sizing: border-box; }
 
-.main__galeria .main__galeria__section .main__galeria__section__div__aperitivo__img {
-  width: 100px;
-  height: 180px;
-  object-fit: cover; }
-
-.main__galeria .main__galeria__section .main__galeria__section__div__vodka__img {
-  width: 100px;
-  height: 180px;
-  object-fit: cover; }
-
-.main__form .main__form__section .main__form__section__h2 {
+.main__about .main__about__section .main__about__section__h2 {
   text-align: center;
   margin-top: 40px; }
 
-.main__form .main__form__section .main__form__section__p {
+.main__about .main__about__section .main__about__section__p--superior {
   text-align: center;
   margin-top: 20px;
   margin-left: 80px;
   margin-right: 80px; }
+
+.main__about .main__about__section .main__about__section__p--inferior {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px; }
+
+.main__about .main__about__section .main__about__section__div--video {
+  width: 300px;
+  height: 300px;
+  object-fit: cover; }
+
+.main__aperitivos .main__aperitivos__section .main__aperitivos__section__div__img {
+  width: 100px;
+  height: 180px;
+  object-fit: cover; }
+
+.main__index .main__index__section .main__index__section__div .main__index__section__div__aperitivo__img {
+  width: 100px;
+  height: 180px;
+  object-fit: cover; }
+
+.main__index .main__index__section .main__index__section__div .main__index__section__div__vodka__img {
+  width: 100px;
+  height: 180px;
+  object-fit: cover; }
+
+.main__cerveza .main__cerveza__section .main__cerveza__section__div__img {
+  width: 100px;
+  height: 180px;
+  object-fit: cover; }
 
 .main__contact .main__contact__section .main__contact__section__menu .main__contact__section__menu__h2 {
   text-align: center;
@@ -70,6 +91,16 @@
     color: #007bb6;
     font-size: 3rem; }
 
+.main__form .main__form__section .main__form__section__h2 {
+  text-align: center;
+  margin-top: 40px; }
+
+.main__form .main__form__section .main__form__section__p {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px; }
+
 .main__location .main__location__section .main__location__section__h2 {
   text-align: center;
   margin-top: 40px; }
@@ -78,25 +109,39 @@
   text-align: center;
   padding: 30px; }
 
-.main__about .main__about__section .main__about__section__h2 {
-  text-align: center;
-  margin-top: 40px; }
+.main__ron .main__ron__section .main__ron__section__div__img {
+  width: 100px;
+  height: 180px;
+  object-fit: cover; }
 
-.main__about .main__about__section .main__about__section__p--superior {
-  text-align: center;
-  margin-top: 20px;
-  margin-left: 80px;
-  margin-right: 80px; }
+.main__gin .main__gin__section .main__gin__section__div .main__gin__section__div__img {
+  width: 100px;
+  height: 180px;
+  object-fit: cover; }
 
-.main__about .main__about__section .main__about__section__p--inferior {
-  text-align: center;
-  margin-top: 20px;
-  margin-left: 80px;
-  margin-right: 80px; }
+.main__sin__alcohol .main__sin__alcohol__section .main__sin__alcohol__section__div .main__sin__alcohol__section__div__agua__img {
+  width: 100px;
+  height: 180px;
+  object-fit: cover; }
 
-.main__about .main__about__section .main__about__section__div--video {
-  width: 300px;
-  height: 300px;
+.main__sin__alcohol .main__sin__alcohol__section .main__sin__alcohol__section__div .main__sin__alcohol__section__div__gaseosas__img {
+  width: 100px;
+  height: 180px;
+  object-fit: cover; }
+
+.main__sin__alcohol .main__sin__alcohol__section .main__sin__alcohol__section__div .main__sin__alcohol__section__div__energizantes__img {
+  width: 100px;
+  height: 180px;
+  object-fit: cover; }
+
+.main__vodka .main__vodka__section .main__vodka__section__div__img {
+  width: 100px;
+  height: 180px;
+  object-fit: cover; }
+
+.main__whisky .main__whisky__section .main__whisky__section__div__img {
+  width: 100px;
+  height: 180px;
   object-fit: cover; }
 
 .body {

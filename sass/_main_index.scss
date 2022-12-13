@@ -1,0 +1,12 @@
+.main__index{
+    .main__index__section{
+        .main__index__section__div{
+            .main__index__section__div__aperitivo__img {
+                @include mixinGaleria-w-h-obf;
+            }
+            .main__index__section__div__vodka__img {
+                @include mixinGaleria-w-h-obf;
+            }
+        }
+    }
+}

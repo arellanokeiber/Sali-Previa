@@ -1,0 +1,7 @@
+.main__whisky{
+    .main__whisky__section{
+        .main__whisky__section__div__img {
+            @include mixinGaleria-w-h-obf;
+        }
+    }
+}

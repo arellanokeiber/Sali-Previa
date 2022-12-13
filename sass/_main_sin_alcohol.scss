@@ -1,0 +1,15 @@
+.main__sin__alcohol{
+    .main__sin__alcohol__section{
+        .main__sin__alcohol__section__div{
+            .main__sin__alcohol__section__div__agua__img {
+                @include mixinGaleria-w-h-obf;
+            }
+            .main__sin__alcohol__section__div__gaseosas__img {
+                @include mixinGaleria-w-h-obf;
+            }
+            .main__sin__alcohol__section__div__energizantes__img {
+                @include mixinGaleria-w-h-obf;
+            }
+        }
+    }
+}

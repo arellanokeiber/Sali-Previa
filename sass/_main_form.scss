@@ -1,0 +1,10 @@
+.main__form{
+    .main__form__section{
+        .main__form__section__h2 {
+            @include mixinH2-center-mt;  
+        }
+        .main__form__section__p {
+            @include mixinP-center-mt-ml-mr;
+        }
+    }
+}
