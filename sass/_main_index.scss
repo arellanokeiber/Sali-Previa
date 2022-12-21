@@ -1,6 +1,7 @@
 .main__index{
     .main__index__section{
         .main__index__section__div{
+            overflow: hidden;
             .main__index__section__div__aperitivo__img {
                 @include mixinGaleria-w-h-obf;
             }

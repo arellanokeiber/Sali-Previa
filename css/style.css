@@ -20,30 +20,39 @@
   margin-left: 80px;
   margin-right: 80px; }
 
-.main__about .main__about__section .main__about__section__div--video {
-  width: 300px;
-  height: 300px;
-  object-fit: cover; }
+.main__about .main__about__section .main__about__section__div {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .main__about .main__about__section .main__about__section__div .main__about__section__div__a .main__about__section__div__a__img {
+    width: 220px;
+    height: 340px;
+    object-fit: cover; }
 
-.main__aperitivos .main__aperitivos__section .main__aperitivos__section__div__img {
-  width: 100px;
-  height: 180px;
-  object-fit: cover; }
+.main__aperitivos .main__aperitivos__section {
+  overflow: hidden; }
+  .main__aperitivos .main__aperitivos__section .main__aperitivos__section__div__img {
+    width: 100px;
+    height: 180px;
+    object-fit: cover; }
 
-.main__index .main__index__section .main__index__section__div .main__index__section__div__aperitivo__img {
-  width: 100px;
-  height: 180px;
-  object-fit: cover; }
+.main__index .main__index__section .main__index__section__div {
+  overflow: hidden; }
+  .main__index .main__index__section .main__index__section__div .main__index__section__div__aperitivo__img {
+    width: 100px;
+    height: 180px;
+    object-fit: cover; }
+  .main__index .main__index__section .main__index__section__div .main__index__section__div__vodka__img {
+    width: 100px;
+    height: 180px;
+    object-fit: cover; }
 
-.main__index .main__index__section .main__index__section__div .main__index__section__div__vodka__img {
-  width: 100px;
-  height: 180px;
-  object-fit: cover; }
-
-.main__cerveza .main__cerveza__section .main__cerveza__section__div__img {
-  width: 100px;
-  height: 180px;
-  object-fit: cover; }
+.main__cerveza .main__cerveza__section {
+  overflow: hidden; }
+  .main__cerveza .main__cerveza__section .main__cerveza__section__div__img {
+    width: 100px;
+    height: 180px;
+    object-fit: cover; }
 
 .main__contact .main__contact__section .main__contact__section__menu .main__contact__section__menu__h2 {
   text-align: center;
@@ -109,40 +118,48 @@
   text-align: center;
   padding: 30px; }
 
-.main__ron .main__ron__section .main__ron__section__div__img {
-  width: 100px;
-  height: 180px;
-  object-fit: cover; }
+.main__ron .main__ron__section {
+  overflow: hidden; }
+  .main__ron .main__ron__section .main__ron__section__div__img {
+    width: 100px;
+    height: 180px;
+    object-fit: cover; }
 
-.main__gin .main__gin__section .main__gin__section__div .main__gin__section__div__img {
-  width: 100px;
-  height: 180px;
-  object-fit: cover; }
+.main__gin .main__gin__section .main__gin__section__div {
+  overflow: hidden; }
+  .main__gin .main__gin__section .main__gin__section__div .main__gin__section__div__img {
+    width: 100px;
+    height: 180px;
+    object-fit: cover; }
 
-.main__sin__alcohol .main__sin__alcohol__section .main__sin__alcohol__section__div .main__sin__alcohol__section__div__agua__img {
-  width: 100px;
-  height: 180px;
-  object-fit: cover; }
+.main__sin__alcohol .main__sin__alcohol__section .main__sin__alcohol__section__div {
+  overflow: hidden; }
+  .main__sin__alcohol .main__sin__alcohol__section .main__sin__alcohol__section__div .main__sin__alcohol__section__div__agua__img {
+    width: 100px;
+    height: 180px;
+    object-fit: cover; }
+  .main__sin__alcohol .main__sin__alcohol__section .main__sin__alcohol__section__div .main__sin__alcohol__section__div__gaseosas__img {
+    width: 100px;
+    height: 180px;
+    object-fit: cover; }
+  .main__sin__alcohol .main__sin__alcohol__section .main__sin__alcohol__section__div .main__sin__alcohol__section__div__energizantes__img {
+    width: 100px;
+    height: 180px;
+    object-fit: cover; }
 
-.main__sin__alcohol .main__sin__alcohol__section .main__sin__alcohol__section__div .main__sin__alcohol__section__div__gaseosas__img {
-  width: 100px;
-  height: 180px;
-  object-fit: cover; }
+.main__vodka .main__vodka__section {
+  overflow: hidden; }
+  .main__vodka .main__vodka__section .main__vodka__section__div__img {
+    width: 100px;
+    height: 180px;
+    object-fit: cover; }
 
-.main__sin__alcohol .main__sin__alcohol__section .main__sin__alcohol__section__div .main__sin__alcohol__section__div__energizantes__img {
-  width: 100px;
-  height: 180px;
-  object-fit: cover; }
-
-.main__vodka .main__vodka__section .main__vodka__section__div__img {
-  width: 100px;
-  height: 180px;
-  object-fit: cover; }
-
-.main__whisky .main__whisky__section .main__whisky__section__div__img {
-  width: 100px;
-  height: 180px;
-  object-fit: cover; }
+.main__whisky .main__whisky__section {
+  overflow: hidden; }
+  .main__whisky .main__whisky__section .main__whisky__section__div__img {
+    width: 100px;
+    height: 180px;
+    object-fit: cover; }
 
 .body {
   background-color: white;
@@ -196,15 +213,18 @@
   .footer .footer__p {
     color: white;
     margin-bottom: 10px; }
-  .footer .footer__a--twitter {
-    color: #1da1f2;
-    font-size: 3rem; }
-  .footer .footer__a--facebook {
-    color: #3b5998;
-    font-size: 3rem; }
-  .footer .footer__a--instagram {
-    color: #cb2027;
-    font-size: 3rem; }
-  .footer .footer__a--linkedin {
-    color: #007bb6;
-    font-size: 3rem; }
+  .footer .footer__div {
+    display: flex;
+    justify-content: space-evenly; }
+    .footer .footer__div .footer__div__a--twitter {
+      color: #1da1f2;
+      font-size: 3rem; }
+    .footer .footer__div .footer__div__a--facebook {
+      color: #3b5998;
+      font-size: 3rem; }
+    .footer .footer__div .footer__div__a--instagram {
+      color: #cb2027;
+      font-size: 3rem; }
+    .footer .footer__div .footer__div__a--linkedin {
+      color: #007bb6;
+      font-size: 3rem; }

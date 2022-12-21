@@ -1,6 +1,7 @@
 .main__gin{
     .main__gin__section{
         .main__gin__section__div{
+            overflow: hidden;
             .main__gin__section__div__img {
                 @include mixinGaleria-w-h-obf;
             }

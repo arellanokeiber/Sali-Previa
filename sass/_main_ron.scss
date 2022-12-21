@@ -1,5 +1,6 @@
 .main__ron{
     .main__ron__section{
+        overflow: hidden;
         .main__ron__section__div__img {
             @include mixinGaleria-w-h-obf;
         }

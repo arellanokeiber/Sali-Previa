@@ -9,20 +9,25 @@
         color: white;
         margin-bottom: 10px;
     }
-    .footer__a--twitter {
-        color: map-get($redes-sociales, twitter);
-        font-size: 3rem;
+    .footer__div{
+        display: flex;
+        justify-content: space-evenly;
+        .footer__div__a--twitter {
+            color: map-get($redes-sociales, twitter);
+            font-size: 3rem;
+        }
+        .footer__div__a--facebook {
+            color: map-get($redes-sociales, facebook);
+            font-size: 3rem;
+        }
+        .footer__div__a--instagram {
+            color: map-get($redes-sociales, instagram);;
+            font-size: 3rem;
+        }
+        .footer__div__a--linkedin {
+            color: map-get($redes-sociales, linkedin);
+            font-size: 3rem;
+        }
     }
-    .footer__a--facebook {
-        color: map-get($redes-sociales, facebook);
-        font-size: 3rem;
-    }
-    .footer__a--instagram {
-        color: map-get($redes-sociales, instagram);;
-        font-size: 3rem;
-    }
-    .footer__a--linkedin {
-        color: map-get($redes-sociales, linkedin);
-        font-size: 3rem;
-    }
+    
 }

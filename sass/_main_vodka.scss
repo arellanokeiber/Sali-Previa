@@ -1,5 +1,6 @@
 .main__vodka{
     .main__vodka__section{
+        overflow: hidden;   
         .main__vodka__section__div__img {
             @include mixinGaleria-w-h-obf;
         }

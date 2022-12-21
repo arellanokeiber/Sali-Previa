@@ -1,5 +1,6 @@
 .main__whisky{
     .main__whisky__section{
+        overflow: hidden;
         .main__whisky__section__div__img {
             @include mixinGaleria-w-h-obf;
         }

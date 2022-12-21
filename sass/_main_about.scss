@@ -9,10 +9,17 @@
         .main__about__section__p--inferior {
             @include mixinP-center-mt-ml-mr;
         }
-        .main__about__section__div--video {
-            width: 300px;
-            height: 300px;
-            object-fit: cover;
+        .main__about__section__div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .main__about__section__div__a{
+                .main__about__section__div__a__img{
+                    width: 220px;
+                    height: 340px;
+                    object-fit: cover;
+                }
+            }
         }
     }
 }
