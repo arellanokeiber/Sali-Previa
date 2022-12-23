@@ -197,6 +197,10 @@
       .header .header__nav__inferior .header__nav__inferior__div__ul .header__nav__inferior__div__ul__li {
         display: inline-block;
         padding: 10px; }
+        .header .header__nav__inferior .header__nav__inferior__div__ul .header__nav__inferior__div__ul__li .header__nav__inferior__div__ul__li__a--text {
+          color: white; }
+          .header .header__nav__inferior .header__nav__inferior__div__ul .header__nav__inferior__div__ul__li .header__nav__inferior__div__ul__li__a--text:hover {
+            color: goldenrod; }
         .header .header__nav__inferior .header__nav__inferior__div__ul .header__nav__inferior__div__ul__li .header__nav__inferior__div__ul__li__a {
           text-decoration: none;
           color: white; }

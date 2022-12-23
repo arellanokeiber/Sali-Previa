@@ -40,6 +40,12 @@
             .header__nav__inferior__div__ul__li{
                 display: inline-block;
                 padding: 10px;
+                .header__nav__inferior__div__ul__li__a--text{
+                    color: $header-footer-color;
+                    &:hover{
+                        color: goldenrod;
+                    }
+                }
                 .header__nav__inferior__div__ul__li__a{
                     text-decoration: none;
                     color: $header-footer-color;
